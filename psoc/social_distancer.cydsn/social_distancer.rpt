@@ -1,0 +1,2770 @@
+Loading plugins phase: Elapsed time ==> 1s.791ms
+<CYPRESSTAG name="CyDsfit arguments...">
+cydsfit arguments: -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p C:\Users\kprice\Documents\PSoC Creator\psoc5LP_proto_board_sandbox\social_distancer.cydsn\social_distancer.cyprj -d CY8C5888LTI-LP097 -s C:\Users\kprice\Documents\PSoC Creator\psoc5LP_proto_board_sandbox\social_distancer.cydsn\Generated_Source\PSoC5 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE
+</CYPRESSTAG>
+<CYPRESSTAG name="Design elaboration results...">
+</CYPRESSTAG>
+Elaboration phase: Elapsed time ==> 8s.288ms
+<CYPRESSTAG name="HDL generation results...">
+</CYPRESSTAG>
+HDL generation phase: Elapsed time ==> 0s.088ms
+<CYPRESSTAG name="Synthesis results...">
+
+     | | | | | | |
+   _________________
+  -|               |-
+  -|               |-
+  -|               |-
+  -|    CYPRESS    |-
+  -|               |-
+  -|               |-   Warp Verilog Synthesis Compiler: Version 6.3 IR 41
+  -|               |-   Copyright (C) 1991-2001 Cypress Semiconductor
+   |_______________|
+     | | | | | | |
+
+======================================================================
+Compiling:  social_distancer.v
+Program  :   C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\warp\bin\warp.exe
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\kprice\Documents\PSoC Creator\psoc5LP_proto_board_sandbox\social_distancer.cydsn\social_distancer.cyprj -dcpsoc3 social_distancer.v -verilog
+======================================================================
+
+======================================================================
+Compiling:  social_distancer.v
+Program  :   C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\warp\bin\warp.exe
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\kprice\Documents\PSoC Creator\psoc5LP_proto_board_sandbox\social_distancer.cydsn\social_distancer.cyprj -dcpsoc3 social_distancer.v -verilog
+======================================================================
+
+======================================================================
+Compiling:  social_distancer.v
+Program  :   vlogfe
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\kprice\Documents\PSoC Creator\psoc5LP_proto_board_sandbox\social_distancer.cydsn\social_distancer.cyprj -dcpsoc3 -verilog social_distancer.v
+======================================================================
+
+vlogfe V6.3 IR 41:  Verilog parser
+Sun Apr 12 12:44:33 2020
+
+
+======================================================================
+Compiling:  social_distancer.v
+Program  :   vpp
+Options  :    -yv2 -q10 social_distancer.v
+======================================================================
+
+vpp V6.3 IR 41:  Verilog Pre-Processor
+Sun Apr 12 12:44:33 2020
+
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\OneTerminal\OneTerminal.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\ZeroTerminal\ZeroTerminal.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_constant_v1_0\cy_constant_v1_0.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\CyControlReg_v1_80\CyControlReg_v1_80.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\warp\lib\common\cypress.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\warp\lib\common\cy_psoc3_inc.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\CyStatusReg_v1_90\CyStatusReg_v1_90.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\warp\lib\common\cypress.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\demux_v1_10\demux_v1_10.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\mux_v1_10\mux_v1_10.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\B_Counter_v3_0\B_Counter_v3_0.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\warp\lib\common\cypress.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\FreqDiv_v1_0\FreqDiv_v1_0.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\warp\lib\common\cypress.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\and_v1_0\and_v1_0.v'
+
+vpp:  No errors.
+
+Library 'work' => directory 'lcpsoc3'
+General_symbol_table
+General_symbol_table
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\warp\lib\common\std.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\warp\lib\common\cypress.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\warp\lib\common\work\cypress.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\warp\lib\ieee\work\stdlogic.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\warp\lib\common\stdlogic\lpmpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
+Using control file 'social_distancer.ctl'.
+C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\FreqDiv_v1_0\FreqDiv_v1_0.v (line 79, col 40):  Note: Substituting module 'add_vi_vv' for '+'.
+C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\FreqDiv_v1_0\FreqDiv_v1_0.v (line 88, col 40):  Note: Substituting module 'add_vi_vv' for '+'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3pkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3.vif'.
+
+vlogfe:  No errors.
+
+
+======================================================================
+Compiling:  social_distancer.v
+Program  :   tovif
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\kprice\Documents\PSoC Creator\psoc5LP_proto_board_sandbox\social_distancer.cydsn\social_distancer.cyprj -dcpsoc3 -verilog social_distancer.v
+======================================================================
+
+tovif V6.3 IR 41:  High-level synthesis
+Sun Apr 12 12:44:34 2020
+
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\warp\lib\common\std.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\warp\lib\common\cypress.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\warp\lib\common\work\cypress.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\warp\lib\ieee\work\stdlogic.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\warp\lib\common\stdlogic\lpmpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
+Linking 'C:\Users\kprice\Documents\PSoC Creator\psoc5LP_proto_board_sandbox\social_distancer.cydsn\codegentemp\social_distancer.ctl'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'.
+Linking 'C:\Users\kprice\Documents\PSoC Creator\psoc5LP_proto_board_sandbox\social_distancer.cydsn\codegentemp\social_distancer.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\OneTerminal\OneTerminal.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\ZeroTerminal\ZeroTerminal.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_constant_v1_0\cy_constant_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\CyControlReg_v1_80\CyControlReg_v1_80.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\warp\lib\common\cypress.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\warp\lib\common\cy_psoc3_inc.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\CyStatusReg_v1_90\CyStatusReg_v1_90.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\demux_v1_10\demux_v1_10.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\mux_v1_10\mux_v1_10.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\B_Counter_v3_0\B_Counter_v3_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\FreqDiv_v1_0\FreqDiv_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\and_v1_0\and_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3pkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\warp\lib\lcpsoc3\stdlogic\mod_cnst.vif'.
+
+tovif:  No errors.
+
+
+======================================================================
+Compiling:  social_distancer.v
+Program  :   topld
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\kprice\Documents\PSoC Creator\psoc5LP_proto_board_sandbox\social_distancer.cydsn\social_distancer.cyprj -dcpsoc3 -verilog social_distancer.v
+======================================================================
+
+topld V6.3 IR 41:  Synthesis and optimization
+Sun Apr 12 12:44:35 2020
+
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\warp\lib\common\std.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\warp\lib\common\cypress.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\warp\lib\common\work\cypress.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\warp\lib\ieee\work\stdlogic.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\warp\lib\common\stdlogic\lpmpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
+Linking 'C:\Users\kprice\Documents\PSoC Creator\psoc5LP_proto_board_sandbox\social_distancer.cydsn\codegentemp\social_distancer.ctl'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'.
+Linking 'C:\Users\kprice\Documents\PSoC Creator\psoc5LP_proto_board_sandbox\social_distancer.cydsn\codegentemp\social_distancer.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\OneTerminal\OneTerminal.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\ZeroTerminal\ZeroTerminal.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_constant_v1_0\cy_constant_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\CyControlReg_v1_80\CyControlReg_v1_80.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\warp\lib\common\cypress.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\warp\lib\common\cy_psoc3_inc.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\CyStatusReg_v1_90\CyStatusReg_v1_90.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\demux_v1_10\demux_v1_10.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\mux_v1_10\mux_v1_10.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\B_Counter_v3_0\B_Counter_v3_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\FreqDiv_v1_0\FreqDiv_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\and_v1_0\and_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3pkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\warp\lib\lcpsoc3\stdlogic\mod_cnst.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\warp\lib\lcpsoc3\stdlogic\cpsoc3.vif'.
+
+----------------------------------------------------------
+Detecting unused logic.
+----------------------------------------------------------
+    User names
+	Net_41
+	Net_38
+	\ledPwm:Net_114\
+	Net_1043
+	\sensorSelRegister:control_bus_7\
+	\sensorSelRegister:control_bus_6\
+	\sensorSelRegister:control_bus_5\
+	\sensorSelRegister:control_bus_4\
+	\sensorSelRegister:control_bus_3\
+	\sensorSelRegister:control_bus_2\
+	Net_883
+	Net_881
+	\echoCounter:Net_49\
+	\echoCounter:Net_82\
+	\echoCounter:Net_95\
+	\echoCounter:Net_91\
+	\echoCounter:Net_102\
+	\echoCounter:CounterUDB:ctrl_cmod_2\
+	\echoCounter:CounterUDB:ctrl_cmod_1\
+	\echoCounter:CounterUDB:ctrl_cmod_0\
+	Net_882
+	\echoCounter:CounterUDB:reload_tc\
+	\FreqDiv_2:MODULE_1:b_31\
+	\FreqDiv_2:MODULE_1:b_30\
+	\FreqDiv_2:MODULE_1:b_29\
+	\FreqDiv_2:MODULE_1:b_28\
+	\FreqDiv_2:MODULE_1:b_27\
+	\FreqDiv_2:MODULE_1:b_26\
+	\FreqDiv_2:MODULE_1:b_25\
+	\FreqDiv_2:MODULE_1:b_24\
+	\FreqDiv_2:MODULE_1:b_23\
+	\FreqDiv_2:MODULE_1:b_22\
+	\FreqDiv_2:MODULE_1:b_21\
+	\FreqDiv_2:MODULE_1:b_20\
+	\FreqDiv_2:MODULE_1:b_19\
+	\FreqDiv_2:MODULE_1:b_18\
+	\FreqDiv_2:MODULE_1:b_17\
+	\FreqDiv_2:MODULE_1:b_16\
+	\FreqDiv_2:MODULE_1:b_15\
+	\FreqDiv_2:MODULE_1:b_14\
+	\FreqDiv_2:MODULE_1:b_13\
+	\FreqDiv_2:MODULE_1:b_12\
+	\FreqDiv_2:MODULE_1:b_11\
+	\FreqDiv_2:MODULE_1:b_10\
+	\FreqDiv_2:MODULE_1:b_9\
+	\FreqDiv_2:MODULE_1:b_8\
+	\FreqDiv_2:MODULE_1:b_7\
+	\FreqDiv_2:MODULE_1:b_6\
+	\FreqDiv_2:MODULE_1:b_5\
+	\FreqDiv_2:MODULE_1:b_4\
+	\FreqDiv_2:MODULE_1:b_3\
+	\FreqDiv_2:MODULE_1:b_2\
+	\FreqDiv_2:MODULE_1:b_1\
+	\FreqDiv_2:MODULE_1:b_0\
+	\FreqDiv_2:MODULE_1:g2:a0:a_31\
+	\FreqDiv_2:MODULE_1:g2:a0:a_30\
+	\FreqDiv_2:MODULE_1:g2:a0:a_29\
+	\FreqDiv_2:MODULE_1:g2:a0:a_28\
+	\FreqDiv_2:MODULE_1:g2:a0:a_27\
+	\FreqDiv_2:MODULE_1:g2:a0:a_26\
+	\FreqDiv_2:MODULE_1:g2:a0:a_25\
+	\FreqDiv_2:MODULE_1:g2:a0:a_24\
+	\FreqDiv_2:MODULE_1:g2:a0:b_31\
+	\FreqDiv_2:MODULE_1:g2:a0:b_30\
+	\FreqDiv_2:MODULE_1:g2:a0:b_29\
+	\FreqDiv_2:MODULE_1:g2:a0:b_28\
+	\FreqDiv_2:MODULE_1:g2:a0:b_27\
+	\FreqDiv_2:MODULE_1:g2:a0:b_26\
+	\FreqDiv_2:MODULE_1:g2:a0:b_25\
+	\FreqDiv_2:MODULE_1:g2:a0:b_24\
+	\FreqDiv_2:MODULE_1:g2:a0:b_23\
+	\FreqDiv_2:MODULE_1:g2:a0:b_22\
+	\FreqDiv_2:MODULE_1:g2:a0:b_21\
+	\FreqDiv_2:MODULE_1:g2:a0:b_20\
+	\FreqDiv_2:MODULE_1:g2:a0:b_19\
+	\FreqDiv_2:MODULE_1:g2:a0:b_18\
+	\FreqDiv_2:MODULE_1:g2:a0:b_17\
+	\FreqDiv_2:MODULE_1:g2:a0:b_16\
+	\FreqDiv_2:MODULE_1:g2:a0:b_15\
+	\FreqDiv_2:MODULE_1:g2:a0:b_14\
+	\FreqDiv_2:MODULE_1:g2:a0:b_13\
+	\FreqDiv_2:MODULE_1:g2:a0:b_12\
+	\FreqDiv_2:MODULE_1:g2:a0:b_11\
+	\FreqDiv_2:MODULE_1:g2:a0:b_10\
+	\FreqDiv_2:MODULE_1:g2:a0:b_9\
+	\FreqDiv_2:MODULE_1:g2:a0:b_8\
+	\FreqDiv_2:MODULE_1:g2:a0:b_7\
+	\FreqDiv_2:MODULE_1:g2:a0:b_6\
+	\FreqDiv_2:MODULE_1:g2:a0:b_5\
+	\FreqDiv_2:MODULE_1:g2:a0:b_4\
+	\FreqDiv_2:MODULE_1:g2:a0:b_3\
+	\FreqDiv_2:MODULE_1:g2:a0:b_2\
+	\FreqDiv_2:MODULE_1:g2:a0:b_1\
+	\FreqDiv_2:MODULE_1:g2:a0:b_0\
+	\FreqDiv_2:MODULE_1:g2:a0:s_31\
+	\FreqDiv_2:MODULE_1:g2:a0:s_30\
+	\FreqDiv_2:MODULE_1:g2:a0:s_29\
+	\FreqDiv_2:MODULE_1:g2:a0:s_28\
+	\FreqDiv_2:MODULE_1:g2:a0:s_27\
+	\FreqDiv_2:MODULE_1:g2:a0:s_26\
+	\FreqDiv_2:MODULE_1:g2:a0:s_25\
+	\FreqDiv_2:MODULE_1:g2:a0:s_24\
+	\FreqDiv_2:MODULE_1:g2:a0:s_23\
+	\FreqDiv_2:MODULE_1:g2:a0:s_22\
+	\FreqDiv_2:MODULE_1:g2:a0:s_21\
+	\FreqDiv_2:MODULE_1:g2:a0:s_20\
+	\FreqDiv_2:MODULE_1:g2:a0:s_19\
+	\FreqDiv_2:MODULE_1:g2:a0:s_18\
+	\FreqDiv_2:MODULE_1:g2:a0:s_17\
+	\FreqDiv_2:MODULE_1:g2:a0:s_16\
+	\FreqDiv_2:MODULE_1:g2:a0:s_15\
+	\FreqDiv_2:MODULE_1:g2:a0:s_14\
+	\FreqDiv_2:MODULE_1:g2:a0:s_13\
+	\FreqDiv_2:MODULE_1:g2:a0:s_12\
+	\FreqDiv_2:MODULE_1:g2:a0:s_11\
+	\FreqDiv_2:MODULE_1:g2:a0:s_10\
+	\FreqDiv_2:MODULE_1:g2:a0:s_9\
+	\FreqDiv_2:MODULE_1:g2:a0:s_8\
+	\FreqDiv_2:MODULE_1:g2:a0:s_7\
+	\FreqDiv_2:MODULE_1:g2:a0:s_6\
+	\FreqDiv_2:MODULE_1:g2:a0:s_5\
+	\FreqDiv_2:MODULE_1:g2:a0:s_4\
+	\FreqDiv_2:MODULE_1:g2:a0:s_3\
+	\FreqDiv_2:MODULE_1:g2:a0:s_2\
+	\FreqDiv_2:MODULE_1:g2:a0:s_1\
+	\FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_31\
+	\FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_30\
+	\FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_29\
+	\FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_28\
+	\FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_27\
+	\FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_26\
+	\FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_25\
+	Net_893
+	Net_898
+	Net_1066
+	Net_1067
+	Net_1068
+	Net_1070
+	Net_1071
+	Net_1072
+	Net_1073
+
+    Synthesized names
+	\FreqDiv_2:add_vi_vv_MODGEN_1_31\
+	\FreqDiv_2:add_vi_vv_MODGEN_1_30\
+	\FreqDiv_2:add_vi_vv_MODGEN_1_29\
+	\FreqDiv_2:add_vi_vv_MODGEN_1_28\
+	\FreqDiv_2:add_vi_vv_MODGEN_1_27\
+	\FreqDiv_2:add_vi_vv_MODGEN_1_26\
+	\FreqDiv_2:add_vi_vv_MODGEN_1_25\
+	\FreqDiv_2:add_vi_vv_MODGEN_1_24\
+	\FreqDiv_2:add_vi_vv_MODGEN_1_23\
+	\FreqDiv_2:add_vi_vv_MODGEN_1_22\
+	\FreqDiv_2:add_vi_vv_MODGEN_1_21\
+	\FreqDiv_2:add_vi_vv_MODGEN_1_20\
+	\FreqDiv_2:add_vi_vv_MODGEN_1_19\
+	\FreqDiv_2:add_vi_vv_MODGEN_1_18\
+	\FreqDiv_2:add_vi_vv_MODGEN_1_17\
+	\FreqDiv_2:add_vi_vv_MODGEN_1_16\
+	\FreqDiv_2:add_vi_vv_MODGEN_1_15\
+	\FreqDiv_2:add_vi_vv_MODGEN_1_14\
+	\FreqDiv_2:add_vi_vv_MODGEN_1_13\
+	\FreqDiv_2:add_vi_vv_MODGEN_1_12\
+	\FreqDiv_2:add_vi_vv_MODGEN_1_11\
+	\FreqDiv_2:add_vi_vv_MODGEN_1_10\
+	\FreqDiv_2:add_vi_vv_MODGEN_1_9\
+	\FreqDiv_2:add_vi_vv_MODGEN_1_8\
+	\FreqDiv_2:add_vi_vv_MODGEN_1_7\
+	\FreqDiv_2:add_vi_vv_MODGEN_1_6\
+	\FreqDiv_2:add_vi_vv_MODGEN_1_5\
+	\FreqDiv_2:add_vi_vv_MODGEN_1_4\
+	\FreqDiv_2:add_vi_vv_MODGEN_1_3\
+	\FreqDiv_2:add_vi_vv_MODGEN_1_2\
+	\FreqDiv_2:add_vi_vv_MODGEN_1_1\
+
+Deleted 141 User equations/components.
+Deleted 31 Synthesized equations/components.
+
+------------------------------------------------------
+Alias Detection
+------------------------------------------------------
+Aliasing one to tmpOE__onboardLedPin_net_0
+Aliasing \ledPwm:Net_113\ to tmpOE__onboardLedPin_net_0
+Aliasing Net_43 to zero
+Aliasing tmpOE__echoOne_net_0 to tmpOE__onboardLedPin_net_0
+Aliasing tmpOE__echoTwo_net_0 to tmpOE__onboardLedPin_net_0
+Aliasing tmpOE__pirInput_net_0 to tmpOE__onboardLedPin_net_0
+Aliasing tmpOE__trigFour_net_0 to tmpOE__onboardLedPin_net_0
+Aliasing tmpOE__trigThree_net_0 to tmpOE__onboardLedPin_net_0
+Aliasing tmpOE__alarmOut_net_0 to tmpOE__onboardLedPin_net_0
+Aliasing tmpOE__trigOne_net_0 to tmpOE__onboardLedPin_net_0
+Aliasing tmpOE__trigTwo_net_0 to tmpOE__onboardLedPin_net_0
+Aliasing \msTimer:Net_260\ to zero
+Aliasing Net_12 to zero
+Aliasing \msTimer:Net_102\ to tmpOE__onboardLedPin_net_0
+Aliasing tmpOE__echoThree_net_0 to tmpOE__onboardLedPin_net_0
+Aliasing tmpOE__echoFour_net_0 to tmpOE__onboardLedPin_net_0
+Aliasing \sensorSelRegister:clk\ to zero
+Aliasing \sensorSelRegister:rst\ to zero
+Aliasing \echoRegister:status_1\ to zero
+Aliasing \echoRegister:status_2\ to zero
+Aliasing \echoRegister:status_3\ to zero
+Aliasing \echoRegister:status_4\ to zero
+Aliasing \echoRegister:status_5\ to zero
+Aliasing \echoRegister:status_6\ to zero
+Aliasing \echoRegister:status_7\ to zero
+Aliasing \echoCounter:Net_89\ to tmpOE__onboardLedPin_net_0
+Aliasing \echoCounter:CounterUDB:ctrl_capmode_1\ to zero
+Aliasing \echoCounter:CounterUDB:ctrl_capmode_0\ to zero
+Aliasing \echoCounter:CounterUDB:capt_rising\ to zero
+Aliasing Net_892 to zero
+Aliasing Net_890 to tmpOE__onboardLedPin_net_0
+Aliasing \FreqDiv_2:MODULE_1:g2:a0:a_23\ to zero
+Aliasing \FreqDiv_2:MODULE_1:g2:a0:a_22\ to zero
+Aliasing \FreqDiv_2:MODULE_1:g2:a0:a_21\ to zero
+Aliasing \FreqDiv_2:MODULE_1:g2:a0:a_20\ to zero
+Aliasing \FreqDiv_2:MODULE_1:g2:a0:a_19\ to zero
+Aliasing \FreqDiv_2:MODULE_1:g2:a0:a_18\ to zero
+Aliasing \FreqDiv_2:MODULE_1:g2:a0:a_17\ to zero
+Aliasing \FreqDiv_2:MODULE_1:g2:a0:a_16\ to zero
+Aliasing \FreqDiv_2:MODULE_1:g2:a0:a_15\ to zero
+Aliasing \FreqDiv_2:MODULE_1:g2:a0:a_14\ to zero
+Aliasing \FreqDiv_2:MODULE_1:g2:a0:a_13\ to zero
+Aliasing \FreqDiv_2:MODULE_1:g2:a0:a_12\ to zero
+Aliasing \FreqDiv_2:MODULE_1:g2:a0:a_11\ to zero
+Aliasing \FreqDiv_2:MODULE_1:g2:a0:a_10\ to zero
+Aliasing \FreqDiv_2:MODULE_1:g2:a0:a_9\ to zero
+Aliasing \FreqDiv_2:MODULE_1:g2:a0:a_8\ to zero
+Aliasing \FreqDiv_2:MODULE_1:g2:a0:a_7\ to zero
+Aliasing \FreqDiv_2:MODULE_1:g2:a0:a_6\ to zero
+Aliasing \FreqDiv_2:MODULE_1:g2:a0:a_5\ to zero
+Aliasing \FreqDiv_2:MODULE_1:g2:a0:a_4\ to zero
+Aliasing \FreqDiv_2:MODULE_1:g2:a0:a_3\ to zero
+Aliasing \FreqDiv_2:MODULE_1:g2:a0:a_2\ to zero
+Aliasing \FreqDiv_2:MODULE_1:g2:a0:a_1\ to zero
+Aliasing \FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_0\ to tmpOE__onboardLedPin_net_0
+Aliasing \timeout:Net_260\ to zero
+Aliasing \timeout:Net_102\ to tmpOE__onboardLedPin_net_0
+Aliasing \triggerRegister:clk\ to zero
+Aliasing \triggerRegister:rst\ to zero
+Aliasing \echoCounter:CounterUDB:prevCapture\\D\ to zero
+Aliasing \echoCounter:CounterUDB:cmp_out_reg_i\\D\ to \echoCounter:CounterUDB:prevCompare\\D\
+Removing Rhs of wire Net_1[2] = \ledPwm:Net_57\[20]
+Removing Lhs of wire one[8] = tmpOE__onboardLedPin_net_0[1]
+Removing Lhs of wire \ledPwm:Net_107\[17] = zero[7]
+Removing Lhs of wire \ledPwm:Net_113\[18] = tmpOE__onboardLedPin_net_0[1]
+Removing Lhs of wire Net_43[24] = zero[7]
+Removing Lhs of wire tmpOE__echoOne_net_0[28] = tmpOE__onboardLedPin_net_0[1]
+Removing Lhs of wire tmpOE__echoTwo_net_0[35] = tmpOE__onboardLedPin_net_0[1]
+Removing Lhs of wire tmpOE__pirInput_net_0[42] = tmpOE__onboardLedPin_net_0[1]
+Removing Lhs of wire tmpOE__trigFour_net_0[49] = tmpOE__onboardLedPin_net_0[1]
+Removing Rhs of wire Net_908[50] = \demux_2:tmp__demux_2_3_reg\[177]
+Removing Lhs of wire tmpOE__trigThree_net_0[57] = tmpOE__onboardLedPin_net_0[1]
+Removing Rhs of wire Net_909[58] = \demux_2:tmp__demux_2_2_reg\[176]
+Removing Lhs of wire tmpOE__alarmOut_net_0[65] = tmpOE__onboardLedPin_net_0[1]
+Removing Lhs of wire tmpOE__trigOne_net_0[71] = tmpOE__onboardLedPin_net_0[1]
+Removing Rhs of wire Net_911[72] = \demux_2:tmp__demux_2_0_reg\[173]
+Removing Lhs of wire tmpOE__trigTwo_net_0[81] = tmpOE__onboardLedPin_net_0[1]
+Removing Rhs of wire Net_910[82] = \demux_2:tmp__demux_2_1_reg\[175]
+Removing Lhs of wire \msTimer:Net_260\[110] = zero[7]
+Removing Lhs of wire \msTimer:Net_266\[111] = tmpOE__onboardLedPin_net_0[1]
+Removing Lhs of wire Net_12[112] = zero[7]
+Removing Rhs of wire Net_1038[116] = \msTimer:Net_57\[115]
+Removing Lhs of wire \msTimer:Net_102\[118] = tmpOE__onboardLedPin_net_0[1]
+Removing Lhs of wire tmpOE__echoThree_net_0[121] = tmpOE__onboardLedPin_net_0[1]
+Removing Lhs of wire tmpOE__echoFour_net_0[128] = tmpOE__onboardLedPin_net_0[1]
+Removing Lhs of wire \sensorSelRegister:clk\[134] = zero[7]
+Removing Lhs of wire \sensorSelRegister:rst\[135] = zero[7]
+Removing Rhs of wire Net_958_1[148] = \sensorSelRegister:control_out_1\[149]
+Removing Rhs of wire Net_958_1[148] = \sensorSelRegister:control_1\[159]
+Removing Rhs of wire Net_958_0[150] = \sensorSelRegister:control_out_0\[151]
+Removing Rhs of wire Net_958_0[150] = \sensorSelRegister:control_0\[160]
+Removing Lhs of wire \echoRegister:status_0\[161] = Net_869[162]
+Removing Rhs of wire Net_869[162] = \mux_2:tmp__mux_2_reg\[178]
+Removing Lhs of wire \echoRegister:status_1\[163] = zero[7]
+Removing Lhs of wire \echoRegister:status_2\[164] = zero[7]
+Removing Lhs of wire \echoRegister:status_3\[165] = zero[7]
+Removing Lhs of wire \echoRegister:status_4\[166] = zero[7]
+Removing Lhs of wire \echoRegister:status_5\[167] = zero[7]
+Removing Lhs of wire \echoRegister:status_6\[168] = zero[7]
+Removing Lhs of wire \echoRegister:status_7\[169] = zero[7]
+Removing Rhs of wire Net_1063[174] = \triggerRegister:control_out_0\[542]
+Removing Rhs of wire Net_1063[174] = \triggerRegister:control_0\[565]
+Removing Lhs of wire \echoCounter:Net_89\[184] = tmpOE__onboardLedPin_net_0[1]
+Removing Lhs of wire \echoCounter:CounterUDB:ctrl_capmode_1\[193] = zero[7]
+Removing Lhs of wire \echoCounter:CounterUDB:ctrl_capmode_0\[194] = zero[7]
+Removing Lhs of wire \echoCounter:CounterUDB:ctrl_enable\[206] = \echoCounter:CounterUDB:control_7\[198]
+Removing Lhs of wire \echoCounter:CounterUDB:capt_rising\[208] = zero[7]
+Removing Lhs of wire \echoCounter:CounterUDB:capt_falling\[209] = \echoCounter:CounterUDB:prevCapture\[207]
+Removing Lhs of wire \echoCounter:CounterUDB:reload\[212] = Net_1063[174]
+Removing Lhs of wire \echoCounter:CounterUDB:final_enable\[213] = \echoCounter:CounterUDB:control_7\[198]
+Removing Lhs of wire \echoCounter:CounterUDB:counter_enable\[214] = \echoCounter:CounterUDB:control_7\[198]
+Removing Rhs of wire \echoCounter:CounterUDB:status_0\[215] = \echoCounter:CounterUDB:cmp_out_status\[216]
+Removing Rhs of wire \echoCounter:CounterUDB:status_1\[217] = \echoCounter:CounterUDB:per_zero\[218]
+Removing Rhs of wire \echoCounter:CounterUDB:status_2\[219] = \echoCounter:CounterUDB:overflow_status\[220]
+Removing Rhs of wire \echoCounter:CounterUDB:status_3\[221] = \echoCounter:CounterUDB:underflow_status\[222]
+Removing Lhs of wire \echoCounter:CounterUDB:status_4\[223] = \echoCounter:CounterUDB:hwCapture\[211]
+Removing Rhs of wire \echoCounter:CounterUDB:status_5\[224] = \echoCounter:CounterUDB:fifo_full\[225]
+Removing Rhs of wire \echoCounter:CounterUDB:status_6\[226] = \echoCounter:CounterUDB:fifo_nempty\[227]
+Removing Lhs of wire \echoCounter:CounterUDB:dp_dir\[230] = tmpOE__onboardLedPin_net_0[1]
+Removing Rhs of wire \echoCounter:CounterUDB:cmp_out_i\[237] = \echoCounter:CounterUDB:cmp_less\[238]
+Removing Lhs of wire \echoCounter:CounterUDB:cs_addr_2\[246] = tmpOE__onboardLedPin_net_0[1]
+Removing Lhs of wire \echoCounter:CounterUDB:cs_addr_1\[247] = \echoCounter:CounterUDB:count_enable\[244]
+Removing Lhs of wire \echoCounter:CounterUDB:cs_addr_0\[248] = Net_1063[174]
+Removing Lhs of wire Net_892[326] = zero[7]
+Removing Lhs of wire Net_890[327] = tmpOE__onboardLedPin_net_0[1]
+Removing Lhs of wire \FreqDiv_2:add_vi_vv_MODGEN_1_0\[330] = \FreqDiv_2:MODULE_1:g2:a0:s_0\[490]
+Removing Lhs of wire \FreqDiv_2:MODULE_1:g2:a0:a_23\[371] = zero[7]
+Removing Lhs of wire \FreqDiv_2:MODULE_1:g2:a0:a_22\[372] = zero[7]
+Removing Lhs of wire \FreqDiv_2:MODULE_1:g2:a0:a_21\[373] = zero[7]
+Removing Lhs of wire \FreqDiv_2:MODULE_1:g2:a0:a_20\[374] = zero[7]
+Removing Lhs of wire \FreqDiv_2:MODULE_1:g2:a0:a_19\[375] = zero[7]
+Removing Lhs of wire \FreqDiv_2:MODULE_1:g2:a0:a_18\[376] = zero[7]
+Removing Lhs of wire \FreqDiv_2:MODULE_1:g2:a0:a_17\[377] = zero[7]
+Removing Lhs of wire \FreqDiv_2:MODULE_1:g2:a0:a_16\[378] = zero[7]
+Removing Lhs of wire \FreqDiv_2:MODULE_1:g2:a0:a_15\[379] = zero[7]
+Removing Lhs of wire \FreqDiv_2:MODULE_1:g2:a0:a_14\[380] = zero[7]
+Removing Lhs of wire \FreqDiv_2:MODULE_1:g2:a0:a_13\[381] = zero[7]
+Removing Lhs of wire \FreqDiv_2:MODULE_1:g2:a0:a_12\[382] = zero[7]
+Removing Lhs of wire \FreqDiv_2:MODULE_1:g2:a0:a_11\[383] = zero[7]
+Removing Lhs of wire \FreqDiv_2:MODULE_1:g2:a0:a_10\[384] = zero[7]
+Removing Lhs of wire \FreqDiv_2:MODULE_1:g2:a0:a_9\[385] = zero[7]
+Removing Lhs of wire \FreqDiv_2:MODULE_1:g2:a0:a_8\[386] = zero[7]
+Removing Lhs of wire \FreqDiv_2:MODULE_1:g2:a0:a_7\[387] = zero[7]
+Removing Lhs of wire \FreqDiv_2:MODULE_1:g2:a0:a_6\[388] = zero[7]
+Removing Lhs of wire \FreqDiv_2:MODULE_1:g2:a0:a_5\[389] = zero[7]
+Removing Lhs of wire \FreqDiv_2:MODULE_1:g2:a0:a_4\[390] = zero[7]
+Removing Lhs of wire \FreqDiv_2:MODULE_1:g2:a0:a_3\[391] = zero[7]
+Removing Lhs of wire \FreqDiv_2:MODULE_1:g2:a0:a_2\[392] = zero[7]
+Removing Lhs of wire \FreqDiv_2:MODULE_1:g2:a0:a_1\[393] = zero[7]
+Removing Lhs of wire \FreqDiv_2:MODULE_1:g2:a0:a_0\[394] = \FreqDiv_2:MODIN1_0\[395]
+Removing Lhs of wire \FreqDiv_2:MODIN1_0\[395] = \FreqDiv_2:count_0\[329]
+Removing Lhs of wire \FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_0\[528] = tmpOE__onboardLedPin_net_0[1]
+Removing Lhs of wire \FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_0\[529] = tmpOE__onboardLedPin_net_0[1]
+Removing Lhs of wire \timeout:Net_260\[531] = zero[7]
+Removing Lhs of wire \timeout:Net_266\[532] = tmpOE__onboardLedPin_net_0[1]
+Removing Lhs of wire \timeout:Net_102\[538] = tmpOE__onboardLedPin_net_0[1]
+Removing Lhs of wire \triggerRegister:clk\[540] = zero[7]
+Removing Lhs of wire \triggerRegister:rst\[541] = zero[7]
+Removing Lhs of wire \echoCounter:CounterUDB:prevCapture\\D\[566] = zero[7]
+Removing Lhs of wire \echoCounter:CounterUDB:overflow_reg_i\\D\[567] = \echoCounter:CounterUDB:overflow\[229]
+Removing Lhs of wire \echoCounter:CounterUDB:underflow_reg_i\\D\[568] = \echoCounter:CounterUDB:underflow\[232]
+Removing Lhs of wire \echoCounter:CounterUDB:tc_reg_i\\D\[569] = \echoCounter:CounterUDB:tc_i\[235]
+Removing Lhs of wire \echoCounter:CounterUDB:prevCompare\\D\[570] = \echoCounter:CounterUDB:cmp_out_i\[237]
+Removing Lhs of wire \echoCounter:CounterUDB:cmp_out_reg_i\\D\[571] = \echoCounter:CounterUDB:cmp_out_i\[237]
+Removing Lhs of wire \echoCounter:CounterUDB:count_stored_i\\D\[572] = Net_889[243]
+
+------------------------------------------------------
+Aliased 0 equations, 104 wires.
+------------------------------------------------------
+
+----------------------------------------------------------
+Circuit simplification
+----------------------------------------------------------
+
+Substituting virtuals - pass 1:
+
+Note:  Expanding virtual equation for 'tmpOE__onboardLedPin_net_0' (cost = 0):
+tmpOE__onboardLedPin_net_0 <=  ('1') ;
+
+Note:  Expanding virtual equation for 'zero' (cost = 0):
+zero <=  ('0') ;
+
+Note:  Expanding virtual equation for 'Net_869' (cost = 4):
+Net_869 <= ((not Net_958_1 and not Net_958_0 and Net_907)
+	OR (not Net_958_0 and Net_905 and Net_958_1)
+	OR (not Net_958_1 and Net_906 and Net_958_0)
+	OR (Net_904 and Net_958_1 and Net_958_0));
+
+Note:  Expanding virtual equation for '\echoCounter:CounterUDB:capt_either_edge\' (cost = 0):
+\echoCounter:CounterUDB:capt_either_edge\ <= (\echoCounter:CounterUDB:prevCapture\);
+
+Note:  Expanding virtual equation for '\echoCounter:CounterUDB:overflow\' (cost = 0):
+\echoCounter:CounterUDB:overflow\ <= (\echoCounter:CounterUDB:per_equal\);
+
+Note:  Expanding virtual equation for '\echoCounter:CounterUDB:underflow\' (cost = 0):
+\echoCounter:CounterUDB:underflow\ <=  ('0') ;
+
+Note:  Expanding virtual equation for 'Net_889' (cost = 4):
+Net_889 <= ((not Net_958_1 and not Net_958_0 and Net_907 and Net_891)
+	OR (not Net_958_0 and Net_905 and Net_958_1 and Net_891)
+	OR (not Net_958_1 and Net_906 and Net_958_0 and Net_891)
+	OR (Net_904 and Net_958_1 and Net_958_0 and Net_891));
+
+Note:  Expanding virtual equation for '\FreqDiv_2:MODULE_1:g2:a0:s_0\' (cost = 0):
+\FreqDiv_2:MODULE_1:g2:a0:s_0\ <= (not \FreqDiv_2:count_0\);
+
+Note:  Expanding virtual equation for '\FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_17\' (cost = 0):
+\FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_17\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_9\' (cost = 0):
+\FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_9\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_1\' (cost = 0):
+\FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_1\ <= (\FreqDiv_2:count_0\);
+
+
+Substituting virtuals - pass 2:
+
+Note:  Expanding virtual equation for '\FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_18\' (cost = 0):
+\FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_18\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_10\' (cost = 0):
+\FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_10\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_2\' (cost = 0):
+\FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_2\ <=  ('0') ;
+
+
+Substituting virtuals - pass 3:
+
+Note:  Expanding virtual equation for '\FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_19\' (cost = 0):
+\FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_19\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_11\' (cost = 0):
+\FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_11\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_3\' (cost = 0):
+\FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_3\ <=  ('0') ;
+
+
+Substituting virtuals - pass 4:
+
+Note:  Expanding virtual equation for '\FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_20\' (cost = 0):
+\FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_20\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_12\' (cost = 0):
+\FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_12\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_4\' (cost = 0):
+\FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_4\ <=  ('0') ;
+
+
+Substituting virtuals - pass 5:
+
+Note:  Expanding virtual equation for '\FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_21\' (cost = 0):
+\FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_21\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_13\' (cost = 0):
+\FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_13\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_5\' (cost = 0):
+\FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_5\ <=  ('0') ;
+
+
+Substituting virtuals - pass 6:
+
+Note:  Expanding virtual equation for '\FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_22\' (cost = 0):
+\FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_22\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_14\' (cost = 0):
+\FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_14\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_6\' (cost = 0):
+\FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_6\ <=  ('0') ;
+
+
+Substituting virtuals - pass 7:
+
+Note:  Expanding virtual equation for '\FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_23\' (cost = 0):
+\FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_23\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_15\' (cost = 0):
+\FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_15\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_7\' (cost = 0):
+\FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_7\ <=  ('0') ;
+
+
+Substituting virtuals - pass 8:
+
+
+----------------------------------------------------------
+Circuit simplification results:
+
+	Expanded 29 signals.
+	Turned 0 signals into soft nodes.
+	Maximum default expansion cost was set at 3.
+----------------------------------------------------------
+
+------------------------------------------------------
+Alias Detection
+------------------------------------------------------
+Aliasing \echoCounter:CounterUDB:hwCapture\ to zero
+Aliasing \echoCounter:CounterUDB:status_3\ to zero
+Aliasing \echoCounter:CounterUDB:underflow\ to zero
+Aliasing \FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_24\ to zero
+Aliasing \FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_16\ to zero
+Aliasing \FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_8\ to zero
+Aliasing \FreqDiv_2:not_last_reset\\D\ to tmpOE__onboardLedPin_net_0
+Removing Lhs of wire \echoCounter:CounterUDB:hwCapture\[211] = zero[7]
+Removing Lhs of wire \echoCounter:CounterUDB:status_3\[221] = zero[7]
+Removing Lhs of wire \echoCounter:CounterUDB:underflow\[232] = zero[7]
+Removing Lhs of wire \echoCounter:CounterUDB:tc_i\[235] = \echoCounter:CounterUDB:per_equal\[231]
+Removing Lhs of wire \FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_24\[499] = zero[7]
+Removing Lhs of wire \FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_16\[509] = zero[7]
+Removing Lhs of wire \FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_8\[519] = zero[7]
+Removing Lhs of wire \FreqDiv_2:not_last_reset\\D\[573] = tmpOE__onboardLedPin_net_0[1]
+
+------------------------------------------------------
+Aliased 0 equations, 8 wires.
+------------------------------------------------------
+
+----------------------------------------------------------
+Circuit simplification
+----------------------------------------------------------
+
+Eliminating unused logic - pass 1:
+
+
+Eliminating unused logic - pass 2:
+
+
+Substituting virtuals - pass 1:
+
+
+----------------------------------------------------------
+Circuit simplification results:
+
+	Expanded 0 signals.
+	Turned 0 signals into soft nodes.
+	Maximum default expansion cost was set at 3.
+----------------------------------------------------------
+
+topld:  No errors.
+
+CYPRESS_DIR    : C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\warp
+Warp Program   : C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\warp\bin\warp.exe
+Warp Arguments : -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya "-.fftprj=C:\Users\kprice\Documents\PSoC Creator\psoc5LP_proto_board_sandbox\social_distancer.cydsn\social_distancer.cyprj" -dcpsoc3 social_distancer.v -verilog
+</CYPRESSTAG>
+Warp synthesis phase: Elapsed time ==> 3s.012ms
+<CYPRESSTAG name="Fitter results...">
+<CYPRESSTAG name="Fitter startup details...">
+cyp3fit: V4.3.0.1445, Family: PSoC3, Started at: Sunday, 12 April 2020 12:44:36
+Options: -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\kprice\Documents\PSoC Creator\psoc5LP_proto_board_sandbox\social_distancer.cydsn\social_distancer.cyprj -d CY8C5888LTI-LP097 social_distancer.v -verilog
+</CYPRESSTAG>
+<CYPRESSTAG name="Design parsing">
+Design parsing phase: Elapsed time ==> 0s.024ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Tech Mapping">
+<CYPRESSTAG name="Initial Mapping" icon="FILE_RPT_TECHM">
+    Removed wire end \FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_24\ kept zero
+    Removed wire end \FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_16\ kept zero
+    Removed wire end \FreqDiv_2:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_8\ kept zero
+    Converted constant MacroCell: \echoCounter:CounterUDB:prevCapture\ from registered to combinatorial
+    Converted constant MacroCell: \echoCounter:CounterUDB:underflow_reg_i\ from registered to combinatorial
+<CYPRESSTAG name="Global Clock Selection" icon="FILE_RPT_TECHM">
+    Digital Clock 0: Automatic-assigning  clock 'clk2'. Fanout=1, Signal=Net_37
+    Digital Clock 1: Automatic-assigning  clock 'clk'. Fanout=6, Signal=Net_1017
+    Digital Clock 2: Automatic-assigning  clock 'Clock_1'. Fanout=1, Signal=Net_1062
+</CYPRESSTAG>
+
+Removing unused cells resulting from optimization
+Done removing unused cells.
+<CYPRESSTAG name="UDB Clock/Enable Remapping Results">
+    UDB Clk/Enable \echoCounter:CounterUDB:clock_enable_block\: with output requested to be synchronous
+        ClockIn: clk was determined to be a global clock that is synchronous to BUS_CLK
+        EnableIn: Constant 1 was determined to be synchronous to ClockIn
+        ClockOut: clk, EnableOut: Constant 1
+    UDB Clk/Enable \echoCounter:CounterUDB:sCTRLReg:cy_psoc3_udb_Ctl_Clk_Sync\: with output requested to be synchronous
+        ClockIn: clk was determined to be a global clock that is synchronous to BUS_CLK
+        EnableIn: Constant 1 was determined to be synchronous to ClockIn
+        ClockOut: clk, EnableOut: Constant 1
+</CYPRESSTAG>
+ADD: pft.M0040: information: The following 1 pin(s) will be assigned a location by the fitter: alarmOut(0)
+
+
+Removing unused cells resulting from optimization
+Done removing unused cells.
+<CYPRESSTAG name="Duplicate Macrocell detection">
+</CYPRESSTAG>
+</CYPRESSTAG>
+<CYPRESSTAG name="Duplicate Macrocell detection">
+</CYPRESSTAG>
+<CYPRESSTAG name="Design Equations" icon="FILE_RPT_EQUATION">
+
+------------------------------------------------------------
+Design Equations
+------------------------------------------------------------
+    <CYPRESSTAG name="Pin listing">
+
+    ------------------------------------------------------------
+    Pin listing
+    ------------------------------------------------------------
+
+    Pin : Name = onboardLedPin(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilities: DIGITAL, ROUTABLE
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => onboardLedPin(0)__PA ,
+            pin_input => Net_1 ,
+            annotation => Net_3 ,
+            pad => onboardLedPin(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = echoOne(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: NOSYNC
+            Out Sync Option: AUTO
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: RES_PULL_DOWN
+            VTrip: CMOS
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilities: DIGITAL, ROUTABLE
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => echoOne(0)__PA ,
+            fb => Net_907 ,
+            pad => echoOne(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = echoTwo(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: NOSYNC
+            Out Sync Option: AUTO
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: RES_PULL_DOWN
+            VTrip: CMOS
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilities: DIGITAL, ROUTABLE
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => echoTwo(0)__PA ,
+            fb => Net_906 ,
+            pad => echoTwo(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = pirInput(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: NOSYNC
+            Out Sync Option: AUTO
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: RES_PULL_DOWN
+            VTrip: CMOS
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilities: DIGITAL
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => pirInput(0)__PA ,
+            annotation => Net_1082 ,
+            pad => pirInput(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = trigFour(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: RES_PULL_DOWN
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilities: DIGITAL, ROUTABLE
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => trigFour(0)__PA ,
+            pin_input => Net_908 ,
+            pad => trigFour(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = trigThree(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: RES_PULL_DOWN
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilities: DIGITAL, ROUTABLE
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => trigThree(0)__PA ,
+            pin_input => Net_909 ,
+            pad => trigThree(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = alarmOut(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilities: DIGITAL
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => alarmOut(0)__PA ,
+            pad => alarmOut(0)_PAD );
+
+    Pin : Name = trigOne(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: RES_PULL_DOWN
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilities: DIGITAL, ROUTABLE
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => trigOne(0)__PA ,
+            pin_input => Net_911 ,
+            pad => trigOne(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = trigTwo(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: RES_PULL_DOWN
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilities: DIGITAL, ROUTABLE
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => trigTwo(0)__PA ,
+            pin_input => Net_910 ,
+            pad => trigTwo(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = echoThree(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: NOSYNC
+            Out Sync Option: AUTO
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: RES_PULL_DOWN
+            VTrip: CMOS
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilities: DIGITAL, ROUTABLE
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => echoThree(0)__PA ,
+            fb => Net_905 ,
+            pad => echoThree(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = echoFour(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: NOSYNC
+            Out Sync Option: AUTO
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: RES_PULL_DOWN
+            VTrip: CMOS
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilities: DIGITAL, ROUTABLE
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => echoFour(0)__PA ,
+            fb => Net_904 ,
+            pad => echoFour(0)_PAD );
+        Properties:
+        {
+        }
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Macrocell listing" icon="FILE_RPT_EQUATION">
+
+    ------------------------------------------------------------
+    Macrocell listing
+    ------------------------------------------------------------
+
+    MacroCell: Name=Net_911, Mode=(Combinatorial)
+        Total # of inputs        : 3
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !Net_958_1 * !Net_958_0 * Net_1063
+        );
+        Output = Net_911 (fanout=1)
+
+    MacroCell: Name=Net_910, Mode=(Combinatorial)
+        Total # of inputs        : 3
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !Net_958_1 * Net_958_0 * Net_1063
+        );
+        Output = Net_910 (fanout=1)
+
+    MacroCell: Name=Net_909, Mode=(Combinatorial)
+        Total # of inputs        : 3
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_958_1 * !Net_958_0 * Net_1063
+        );
+        Output = Net_909 (fanout=1)
+
+    MacroCell: Name=Net_908, Mode=(Combinatorial)
+        Total # of inputs        : 3
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_958_1 * Net_958_0 * Net_1063
+        );
+        Output = Net_908 (fanout=1)
+
+    MacroCell: Name=Net_869, Mode=(Combinatorial)
+        Total # of inputs        : 6
+        Total # of product terms : 4
+            Clock Enable: True
+        Main Equation            : 4 pterms
+        (
+              Net_907 * !Net_958_1 * !Net_958_0
+            + Net_906 * !Net_958_1 * Net_958_0
+            + Net_905 * Net_958_1 * !Net_958_0
+            + Net_904 * Net_958_1 * Net_958_0
+        );
+        Output = Net_869 (fanout=1)
+
+    MacroCell: Name=\echoCounter:CounterUDB:status_0\, Mode=(Combinatorial)
+        Total # of inputs        : 2
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \echoCounter:CounterUDB:cmp_out_i\ * 
+              !\echoCounter:CounterUDB:prevCompare\
+        );
+        Output = \echoCounter:CounterUDB:status_0\ (fanout=1)
+
+    MacroCell: Name=\echoCounter:CounterUDB:status_2\, Mode=(Combinatorial)
+        Total # of inputs        : 2
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \echoCounter:CounterUDB:per_equal\ * 
+              !\echoCounter:CounterUDB:overflow_reg_i\
+        );
+        Output = \echoCounter:CounterUDB:status_2\ (fanout=1)
+
+    MacroCell: Name=\echoCounter:CounterUDB:count_enable\, Mode=(Combinatorial)
+        Total # of inputs        : 9
+        Total # of product terms : 4
+            Clock Enable: True
+        Main Equation            : 4 pterms
+        (
+              Net_907 * !Net_958_1 * !Net_958_0 * 
+              \echoCounter:CounterUDB:control_7\ * 
+              !\echoCounter:CounterUDB:count_stored_i\ * Net_891
+            + Net_906 * !Net_958_1 * Net_958_0 * 
+              \echoCounter:CounterUDB:control_7\ * 
+              !\echoCounter:CounterUDB:count_stored_i\ * Net_891
+            + Net_905 * Net_958_1 * !Net_958_0 * 
+              \echoCounter:CounterUDB:control_7\ * 
+              !\echoCounter:CounterUDB:count_stored_i\ * Net_891
+            + Net_904 * Net_958_1 * Net_958_0 * 
+              \echoCounter:CounterUDB:control_7\ * 
+              !\echoCounter:CounterUDB:count_stored_i\ * Net_891
+        );
+        Output = \echoCounter:CounterUDB:count_enable\ (fanout=2)
+
+    MacroCell: Name=__ONE__, Mode=(Combinatorial)
+        Total # of inputs        : 0
+        Total # of product terms : 0
+            Clock Enable: True
+        Main Equation            : 0 pterms
+        !(
+            0
+        );
+        Output = __ONE__ (fanout=5)
+
+    MacroCell: Name=\echoCounter:CounterUDB:overflow_reg_i\, Mode=(D-Register)
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_1017) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \echoCounter:CounterUDB:per_equal\
+        );
+        Output = \echoCounter:CounterUDB:overflow_reg_i\ (fanout=1)
+
+    MacroCell: Name=\echoCounter:CounterUDB:prevCompare\, Mode=(D-Register)
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_1017) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \echoCounter:CounterUDB:cmp_out_i\
+        );
+        Output = \echoCounter:CounterUDB:prevCompare\ (fanout=1)
+
+    MacroCell: Name=\echoCounter:CounterUDB:count_stored_i\, Mode=(D-Register)
+        Total # of inputs        : 7
+        Total # of product terms : 4
+        List of special equations: 
+            Clock  = (Net_1017) => Global
+            Clock Enable: True
+        Main Equation            : 4 pterms
+        (
+              Net_907 * !Net_958_1 * !Net_958_0 * Net_891
+            + Net_906 * !Net_958_1 * Net_958_0 * Net_891
+            + Net_905 * Net_958_1 * !Net_958_0 * Net_891
+            + Net_904 * Net_958_1 * Net_958_0 * Net_891
+        );
+        Output = \echoCounter:CounterUDB:count_stored_i\ (fanout=1)
+
+    MacroCell: Name=\FreqDiv_2:not_last_reset\, Mode=(D-Register)
+        Total # of inputs        : 0
+        Total # of product terms : 0
+        List of special equations: 
+            Clock  = (Net_1017) => Global
+            Clock Enable: True
+        Main Equation            : 0 pterms
+        !(
+            0
+        );
+        Output = \FreqDiv_2:not_last_reset\ (fanout=2)
+
+    MacroCell: Name=Net_891, Mode=(D-Register)
+        Total # of inputs        : 2
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_1017) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        !(
+              \FreqDiv_2:not_last_reset\ * !\FreqDiv_2:count_0\
+        );
+        Output = Net_891 (fanout=2)
+
+    MacroCell: Name=\FreqDiv_2:count_0\, Mode=(T-Register)
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_1017) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \FreqDiv_2:not_last_reset\
+        );
+        Output = \FreqDiv_2:count_0\ (fanout=1)
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Datapath listing">
+
+    ------------------------------------------------------------
+    Datapath listing
+    ------------------------------------------------------------
+
+    datapathcell: Name =\echoCounter:CounterUDB:sC16:counterdp:u0\
+        PORT MAP (
+            clock => Net_1017 ,
+            cs_addr_2 => __ONE__ ,
+            cs_addr_1 => \echoCounter:CounterUDB:count_enable\ ,
+            cs_addr_0 => Net_1063 ,
+            chain_out => \echoCounter:CounterUDB:sC16:counterdp:carry\ );
+        Properties:
+        {
+            a0_init = "00000000"
+            a1_init = "00000000"
+            ce0_sync = 1
+            ce1_sync = 1
+            cl0_sync = 1
+            cl1_sync = 1
+            cmsb_sync = 1
+            co_msb_sync = 1
+            cy_dpconfig = "0000000001000000000000001000000001000000010000000000000010000000000000000100000010101000010100000010000001000000101010000101000011111111000000001111111111111111101000000000000000000001000000000000000000011000"
+            d0_init = "00000000"
+            d1_init = "00000000"
+            f0_blk_sync = 1
+            f0_bus_sync = 1
+            f1_blk_sync = 1
+            f1_bus_sync = 1
+            ff0_sync = 1
+            ff1_sync = 1
+            ov_msb_sync = 1
+            so_sync = 1
+            z0_sync = 1
+            z1_sync = 1
+        }
+        Clock Polarity: Active High
+        Clock Enable: True
+        Next in chain : \echoCounter:CounterUDB:sC16:counterdp:u1\
+
+    datapathcell: Name =\echoCounter:CounterUDB:sC16:counterdp:u1\
+        PORT MAP (
+            clock => Net_1017 ,
+            cs_addr_2 => __ONE__ ,
+            cs_addr_1 => \echoCounter:CounterUDB:count_enable\ ,
+            cs_addr_0 => Net_1063 ,
+            ce0_comb => \echoCounter:CounterUDB:per_equal\ ,
+            z0_comb => \echoCounter:CounterUDB:status_1\ ,
+            cl1_comb => \echoCounter:CounterUDB:cmp_out_i\ ,
+            f0_bus_stat_comb => \echoCounter:CounterUDB:status_6\ ,
+            f0_blk_stat_comb => \echoCounter:CounterUDB:status_5\ ,
+            chain_in => \echoCounter:CounterUDB:sC16:counterdp:carry\ );
+        Properties:
+        {
+            a0_init = "00000000"
+            a1_init = "00000000"
+            ce0_sync = 1
+            ce1_sync = 1
+            cl0_sync = 1
+            cl1_sync = 1
+            cmsb_sync = 1
+            co_msb_sync = 1
+            cy_dpconfig = "0000000001000000000000001000000001000000010000000000000010000000000000000100000010101000010100000010000001000000101010000101000011111111000000001111111111111111101011110000000000000001000001110000000000011000"
+            d0_init = "00000000"
+            d1_init = "00000000"
+            f0_blk_sync = 1
+            f0_bus_sync = 1
+            f1_blk_sync = 1
+            f1_bus_sync = 1
+            ff0_sync = 1
+            ff1_sync = 1
+            ov_msb_sync = 1
+            so_sync = 1
+            z0_sync = 1
+            z1_sync = 1
+        }
+        Clock Polarity: Active High
+        Clock Enable: True
+        Previous in chain : \echoCounter:CounterUDB:sC16:counterdp:u0\
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Status register listing">
+
+    ------------------------------------------------------------
+    Status register listing
+    ------------------------------------------------------------
+
+    statuscell: Name =\echoRegister:sts:sts_reg\
+        PORT MAP (
+            status_0 => Net_869 );
+        Properties:
+        {
+            cy_force_order = 1
+            cy_md_select = "00000000"
+        }
+        Clock Enable: True
+    </CYPRESSTAG>
+    <CYPRESSTAG name="StatusI register listing">
+
+    ------------------------------------------------------------
+    StatusI register listing
+    ------------------------------------------------------------
+
+    statusicell: Name =\echoCounter:CounterUDB:sSTSReg:stsreg\
+        PORT MAP (
+            reset => Net_1063 ,
+            clock => Net_1017 ,
+            status_6 => \echoCounter:CounterUDB:status_6\ ,
+            status_5 => \echoCounter:CounterUDB:status_5\ ,
+            status_2 => \echoCounter:CounterUDB:status_2\ ,
+            status_1 => \echoCounter:CounterUDB:status_1\ ,
+            status_0 => \echoCounter:CounterUDB:status_0\ );
+        Properties:
+        {
+            cy_force_order = 1
+            cy_int_mask = "1111111"
+            cy_md_select = "0011111"
+        }
+        Clock Polarity: Active High
+        Clock Enable: True
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Sync listing">
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Control register listing">
+
+    ------------------------------------------------------------
+    Control register listing
+    ------------------------------------------------------------
+
+    controlcell: Name =\sensorSelRegister:Sync:ctrl_reg\
+        PORT MAP (
+            control_7 => \sensorSelRegister:control_7\ ,
+            control_6 => \sensorSelRegister:control_6\ ,
+            control_5 => \sensorSelRegister:control_5\ ,
+            control_4 => \sensorSelRegister:control_4\ ,
+            control_3 => \sensorSelRegister:control_3\ ,
+            control_2 => \sensorSelRegister:control_2\ ,
+            control_1 => Net_958_1 ,
+            control_0 => Net_958_0 );
+        Properties:
+        {
+            cy_ctrl_mode_0 = "00000000"
+            cy_ctrl_mode_1 = "00000000"
+            cy_ext_reset = 0
+            cy_force_order = 1
+            cy_init_value = "00000000"
+        }
+        Clock Enable: True
+
+    controlcell: Name =\echoCounter:CounterUDB:sCTRLReg:ctrlreg\
+        PORT MAP (
+            clock => Net_1017 ,
+            control_7 => \echoCounter:CounterUDB:control_7\ ,
+            control_6 => \echoCounter:CounterUDB:control_6\ ,
+            control_5 => \echoCounter:CounterUDB:control_5\ ,
+            control_4 => \echoCounter:CounterUDB:control_4\ ,
+            control_3 => \echoCounter:CounterUDB:control_3\ ,
+            control_2 => \echoCounter:CounterUDB:control_2\ ,
+            control_1 => \echoCounter:CounterUDB:control_1\ ,
+            control_0 => \echoCounter:CounterUDB:control_0\ );
+        Properties:
+        {
+            cy_ctrl_mode_0 = "11111111"
+            cy_ctrl_mode_1 = "00000000"
+            cy_ext_reset = 0
+            cy_force_order = 1
+            cy_init_value = "00000000"
+        }
+        Clock Polarity: Active High
+        Clock Enable: True
+
+    controlcell: Name =\triggerRegister:Sync:ctrl_reg\
+        PORT MAP (
+            control_7 => \triggerRegister:control_7\ ,
+            control_6 => \triggerRegister:control_6\ ,
+            control_5 => \triggerRegister:control_5\ ,
+            control_4 => \triggerRegister:control_4\ ,
+            control_3 => \triggerRegister:control_3\ ,
+            control_2 => \triggerRegister:control_2\ ,
+            control_1 => \triggerRegister:control_1\ ,
+            control_0 => Net_1063 );
+        Properties:
+        {
+            cy_ctrl_mode_0 = "00000000"
+            cy_ctrl_mode_1 = "00000000"
+            cy_ext_reset = 0
+            cy_force_order = 1
+            cy_init_value = "00000000"
+        }
+        Clock Enable: True
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Count7 listing">
+    </CYPRESSTAG>
+    <CYPRESSTAG name="DRQ listing">
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Interrupt listing">
+
+    ------------------------------------------------------------
+    Interrupt listing
+    ------------------------------------------------------------
+
+    interrupt: Name =oneMsIsr
+        PORT MAP (
+            interrupt => Net_1038 );
+        Properties:
+        {
+            int_type = "10"
+            is_nmi = 0
+        }
+    </CYPRESSTAG>
+</CYPRESSTAG>
+<CYPRESSTAG name="Technology mapping summary" expanded>
+
+------------------------------------------------------------
+Technology mapping summary
+------------------------------------------------------------
+
+Resource Type                 : Used : Free :  Max :  % Used
+============================================================
+Digital Clocks                :    3 :    5 :    8 : 37.50 %
+Analog Clocks                 :    0 :    4 :    4 :  0.00 %
+CapSense Buffers              :    0 :    2 :    2 :  0.00 %
+Digital Filter Block          :    0 :    1 :    1 :  0.00 %
+Interrupts                    :    1 :   31 :   32 :  3.13 %
+IO                            :   14 :   34 :   48 : 29.17 %
+Segment LCD                   :    0 :    1 :    1 :  0.00 %
+CAN 2.0b                      :    0 :    1 :    1 :  0.00 %
+I2C                           :    0 :    1 :    1 :  0.00 %
+USB                           :    0 :    1 :    1 :  0.00 %
+DMA Channels                  :    0 :   24 :   24 :  0.00 %
+Timer                         :    3 :    1 :    4 : 75.00 %
+UDB                           :      :      :      :        
+  Macrocells                  :   15 :  177 :  192 :  7.81 %
+  Unique P-terms              :   22 :  362 :  384 :  5.73 %
+  Total P-terms               :   22 :      :      :        
+  Datapath Cells              :    2 :   22 :   24 :  8.33 %
+  Status Cells                :    2 :   22 :   24 :  8.33 %
+    Status Registers          :    1 :      :      :        
+    StatusI Registers         :    1 :      :      :        
+  Control Cells               :    3 :   21 :   24 : 12.50 %
+    Control Registers         :    3 :      :      :        
+Opamp                         :    0 :    4 :    4 :  0.00 %
+Comparator                    :    0 :    4 :    4 :  0.00 %
+Delta-Sigma ADC               :    0 :    1 :    1 :  0.00 %
+LPF                           :    0 :    2 :    2 :  0.00 %
+SAR ADC                       :    0 :    2 :    2 :  0.00 %
+Analog (SC/CT) Blocks         :    0 :    4 :    4 :  0.00 %
+DAC                           :      :      :      :        
+  VIDAC                       :    0 :    4 :    4 :  0.00 %
+</CYPRESSTAG>
+Technology Mapping: Elapsed time ==> 0s.128ms
+Tech Mapping phase: Elapsed time ==> 0s.211ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Analog Placement">
+Initial Analog Placement Results:
+IO_7@[IOP=(0)][IoId=(7)] : echoFour(0) (fixed)
+IO_4@[IOP=(0)][IoId=(4)] : echoOne(0) (fixed)
+IO_6@[IOP=(0)][IoId=(6)] : echoThree(0) (fixed)
+IO_5@[IOP=(0)][IoId=(5)] : echoTwo(0) (fixed)
+IO_1@[IOP=(2)][IoId=(1)] : onboardLedPin(0) (fixed)
+IO_0@[IOP=(3)][IoId=(0)] : pirInput(0) (fixed)
+IO_3@[IOP=(0)][IoId=(3)] : trigFour(0) (fixed)
+IO_0@[IOP=(0)][IoId=(0)] : trigOne(0) (fixed)
+IO_2@[IOP=(0)][IoId=(2)] : trigThree(0) (fixed)
+IO_1@[IOP=(0)][IoId=(1)] : trigTwo(0) (fixed)
+Analog Placement phase: Elapsed time ==> 0s.020ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Analog Routing">
+Analog Routing phase: Elapsed time ==> 0s.000ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Analog Code Generation">
+============ Analog Final Answer Routes ============
+Dump of CyAnalogRoutingResultsDB
+Map of net to items {
+}
+Map of item to net {
+}
+Mux Info {
+}
+Dump of CyP35AnalogRoutingResultsDB
+IsVddaHalfUsedForComp = False
+IsVddaHalfUsedForSar0 = False
+IsVddaHalfUsedForSar1 = False
+Analog Code Generation phase: Elapsed time ==> 0s.355ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Digital Placement">
+<CYPRESSTAG name="Detailed placement messages">
+I2076: Total run-time: 1.0 sec.
+
+</CYPRESSTAG>
+<CYPRESSTAG name="PLD Packing">
+<CYPRESSTAG name="PLD Packing Summary" expanded>
+
+------------------------------------------------------------
+PLD Packing Summary
+------------------------------------------------------------
+            Resource Type : Used : Free :  Max :  % Used
+    ====================================================
+                     PLDs :    5 :   43 :   48 :  10.42%
+
+<CYPRESSTAG name="PLD Statistics">
+
+        PLD Resource Type :     Average/LAB
+    =======================================
+                   Inputs :            4.80
+                   Pterms :            4.40
+               Macrocells :            3.00
+</CYPRESSTAG>
+<CYPRESSTAG name="Packed PLD Contents">
+Packed PLD Contents not displayed at this verbose level.</CYPRESSTAG>
+</CYPRESSTAG>
+PLD Packing: Elapsed time ==> 0s.003ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Partitioning">
+<CYPRESSTAG name="Initial Partitioning Summary">
+Initial Partitioning Summary not displayed at this verbose level.</CYPRESSTAG>
+<CYPRESSTAG name="Final Partitioning Summary">
+Final Partitioning Summary not displayed at this verbose level.</CYPRESSTAG>
+Partitioning: Elapsed time ==> 0s.024ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Final Placement Summary">
+
+------------------------------------------------------------
+Final Placement Summary
+------------------------------------------------------------
+
+       Resource Type :      Count : Avg Inputs : Avg Outputs
+    ========================================================
+                 UDB :          3 :       7.33 :       5.00
+<CYPRESSTAG name="Final Placement Details">
+<CYPRESSTAG name="Component Details">
+
+------------------------------------------------------------
+Component Placement Details
+------------------------------------------------------------
+UDB [UDB=(0,0)] is empty.
+UDB [UDB=(0,1)] is empty.
+UDB [UDB=(0,2)] is empty.
+UDB [UDB=(0,3)] is empty.
+UDB [UDB=(0,4)] is empty.
+UDB [UDB=(0,5)] is empty.
+UDB [UDB=(1,0)] is empty.
+UDB [UDB=(1,1)] is empty.
+UDB [UDB=(1,2)] is empty.
+UDB [UDB=(1,3)] is empty.
+UDB [UDB=(1,4)] is empty.
+UDB [UDB=(1,5)] is empty.
+UDB [UDB=(2,0)] is empty.
+UDB [UDB=(2,1)] is empty.
+UDB [UDB=(2,2)] is empty.
+UDB [UDB=(2,3)] is empty.
+UDB [UDB=(2,4)] contents:
+LAB@[UDB=(2,4)][LB=0] #macrocells=4, #inputs=4, #pterms=4
+{
+    [McSlotId=0]:     MacroCell: Name=\echoCounter:CounterUDB:prevCompare\, Mode=(D-Register) @ [UDB=(2,4)][LB=0][MC=0]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_1017) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \echoCounter:CounterUDB:cmp_out_i\
+        );
+        Output = \echoCounter:CounterUDB:prevCompare\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=\echoCounter:CounterUDB:status_0\, Mode=(Combinatorial) @ [UDB=(2,4)][LB=0][MC=1]
+        Total # of inputs        : 2
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \echoCounter:CounterUDB:cmp_out_i\ * 
+              !\echoCounter:CounterUDB:prevCompare\
+        );
+        Output = \echoCounter:CounterUDB:status_0\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=\echoCounter:CounterUDB:overflow_reg_i\, Mode=(D-Register) @ [UDB=(2,4)][LB=0][MC=2]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_1017) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \echoCounter:CounterUDB:per_equal\
+        );
+        Output = \echoCounter:CounterUDB:overflow_reg_i\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=\echoCounter:CounterUDB:status_2\, Mode=(Combinatorial) @ [UDB=(2,4)][LB=0][MC=3]
+        Total # of inputs        : 2
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \echoCounter:CounterUDB:per_equal\ * 
+              !\echoCounter:CounterUDB:overflow_reg_i\
+        );
+        Output = \echoCounter:CounterUDB:status_2\ (fanout=1)
+        Properties               : 
+        {
+        }
+}
+
+LAB@[UDB=(2,4)][LB=1] #macrocells=1, #inputs=0, #pterms=0
+{
+    [McSlotId=0]:     MacroCell: Name=__ONE__, Mode=(Combinatorial) @ [UDB=(2,4)][LB=1][MC=0]
+        Total # of inputs        : 0
+        Total # of product terms : 0
+            Clock Enable: True
+        Main Equation            : 0 pterms
+        !(
+            0
+        );
+        Output = __ONE__ (fanout=5)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]: (empty)
+    [McSlotId=2]: (empty)
+    [McSlotId=3]: (empty)
+}
+
+datapathcell: Name =\echoCounter:CounterUDB:sC16:counterdp:u1\
+    PORT MAP (
+        clock => Net_1017 ,
+        cs_addr_2 => __ONE__ ,
+        cs_addr_1 => \echoCounter:CounterUDB:count_enable\ ,
+        cs_addr_0 => Net_1063 ,
+        ce0_comb => \echoCounter:CounterUDB:per_equal\ ,
+        z0_comb => \echoCounter:CounterUDB:status_1\ ,
+        cl1_comb => \echoCounter:CounterUDB:cmp_out_i\ ,
+        f0_bus_stat_comb => \echoCounter:CounterUDB:status_6\ ,
+        f0_blk_stat_comb => \echoCounter:CounterUDB:status_5\ ,
+        chain_in => \echoCounter:CounterUDB:sC16:counterdp:carry\ );
+    Properties:
+    {
+        a0_init = "00000000"
+        a1_init = "00000000"
+        ce0_sync = 1
+        ce1_sync = 1
+        cl0_sync = 1
+        cl1_sync = 1
+        cmsb_sync = 1
+        co_msb_sync = 1
+        cy_dpconfig = "0000000001000000000000001000000001000000010000000000000010000000000000000100000010101000010100000010000001000000101010000101000011111111000000001111111111111111101011110000000000000001000001110000000000011000"
+        d0_init = "00000000"
+        d1_init = "00000000"
+        f0_blk_sync = 1
+        f0_bus_sync = 1
+        f1_blk_sync = 1
+        f1_bus_sync = 1
+        ff0_sync = 1
+        ff1_sync = 1
+        ov_msb_sync = 1
+        so_sync = 1
+        z0_sync = 1
+        z1_sync = 1
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+    Previous in chain : \echoCounter:CounterUDB:sC16:counterdp:u0\
+
+statusicell: Name =\echoCounter:CounterUDB:sSTSReg:stsreg\
+    PORT MAP (
+        reset => Net_1063 ,
+        clock => Net_1017 ,
+        status_6 => \echoCounter:CounterUDB:status_6\ ,
+        status_5 => \echoCounter:CounterUDB:status_5\ ,
+        status_2 => \echoCounter:CounterUDB:status_2\ ,
+        status_1 => \echoCounter:CounterUDB:status_1\ ,
+        status_0 => \echoCounter:CounterUDB:status_0\ );
+    Properties:
+    {
+        cy_force_order = 1
+        cy_int_mask = "1111111"
+        cy_md_select = "0011111"
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+
+controlcell: Name =\triggerRegister:Sync:ctrl_reg\
+    PORT MAP (
+        control_7 => \triggerRegister:control_7\ ,
+        control_6 => \triggerRegister:control_6\ ,
+        control_5 => \triggerRegister:control_5\ ,
+        control_4 => \triggerRegister:control_4\ ,
+        control_3 => \triggerRegister:control_3\ ,
+        control_2 => \triggerRegister:control_2\ ,
+        control_1 => \triggerRegister:control_1\ ,
+        control_0 => Net_1063 );
+    Properties:
+    {
+        cy_ctrl_mode_0 = "00000000"
+        cy_ctrl_mode_1 = "00000000"
+        cy_ext_reset = 0
+        cy_force_order = 1
+        cy_init_value = "00000000"
+    }
+    Clock Enable: True
+
+UDB [UDB=(2,5)] is empty.
+UDB [UDB=(3,0)] is empty.
+UDB [UDB=(3,1)] is empty.
+UDB [UDB=(3,2)] is empty.
+UDB [UDB=(3,3)] is empty.
+UDB [UDB=(3,4)] contents:
+LAB@[UDB=(3,4)][LB=0] #macrocells=2, #inputs=9, #pterms=8
+{
+    [McSlotId=0]:     MacroCell: Name=\echoCounter:CounterUDB:count_enable\, Mode=(Combinatorial) @ [UDB=(3,4)][LB=0][MC=0]
+        Total # of inputs        : 9
+        Total # of product terms : 4
+            Clock Enable: True
+        Main Equation            : 4 pterms
+        (
+              Net_907 * !Net_958_1 * !Net_958_0 * 
+              \echoCounter:CounterUDB:control_7\ * 
+              !\echoCounter:CounterUDB:count_stored_i\ * Net_891
+            + Net_906 * !Net_958_1 * Net_958_0 * 
+              \echoCounter:CounterUDB:control_7\ * 
+              !\echoCounter:CounterUDB:count_stored_i\ * Net_891
+            + Net_905 * Net_958_1 * !Net_958_0 * 
+              \echoCounter:CounterUDB:control_7\ * 
+              !\echoCounter:CounterUDB:count_stored_i\ * Net_891
+            + Net_904 * Net_958_1 * Net_958_0 * 
+              \echoCounter:CounterUDB:control_7\ * 
+              !\echoCounter:CounterUDB:count_stored_i\ * Net_891
+        );
+        Output = \echoCounter:CounterUDB:count_enable\ (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=\echoCounter:CounterUDB:count_stored_i\, Mode=(D-Register) @ [UDB=(3,4)][LB=0][MC=1]
+        Total # of inputs        : 7
+        Total # of product terms : 4
+        List of special equations: 
+            Clock  = (Net_1017) => Global
+            Clock Enable: True
+        Main Equation            : 4 pterms
+        (
+              Net_907 * !Net_958_1 * !Net_958_0 * Net_891
+            + Net_906 * !Net_958_1 * Net_958_0 * Net_891
+            + Net_905 * Net_958_1 * !Net_958_0 * Net_891
+            + Net_904 * Net_958_1 * Net_958_0 * Net_891
+        );
+        Output = \echoCounter:CounterUDB:count_stored_i\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]: (empty)
+    [McSlotId=3]: (empty)
+}
+
+datapathcell: Name =\echoCounter:CounterUDB:sC16:counterdp:u0\
+    PORT MAP (
+        clock => Net_1017 ,
+        cs_addr_2 => __ONE__ ,
+        cs_addr_1 => \echoCounter:CounterUDB:count_enable\ ,
+        cs_addr_0 => Net_1063 ,
+        chain_out => \echoCounter:CounterUDB:sC16:counterdp:carry\ );
+    Properties:
+    {
+        a0_init = "00000000"
+        a1_init = "00000000"
+        ce0_sync = 1
+        ce1_sync = 1
+        cl0_sync = 1
+        cl1_sync = 1
+        cmsb_sync = 1
+        co_msb_sync = 1
+        cy_dpconfig = "0000000001000000000000001000000001000000010000000000000010000000000000000100000010101000010100000010000001000000101010000101000011111111000000001111111111111111101000000000000000000001000000000000000000011000"
+        d0_init = "00000000"
+        d1_init = "00000000"
+        f0_blk_sync = 1
+        f0_bus_sync = 1
+        f1_blk_sync = 1
+        f1_bus_sync = 1
+        ff0_sync = 1
+        ff1_sync = 1
+        ov_msb_sync = 1
+        so_sync = 1
+        z0_sync = 1
+        z1_sync = 1
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+    Next in chain : \echoCounter:CounterUDB:sC16:counterdp:u1\
+
+controlcell: Name =\sensorSelRegister:Sync:ctrl_reg\
+    PORT MAP (
+        control_7 => \sensorSelRegister:control_7\ ,
+        control_6 => \sensorSelRegister:control_6\ ,
+        control_5 => \sensorSelRegister:control_5\ ,
+        control_4 => \sensorSelRegister:control_4\ ,
+        control_3 => \sensorSelRegister:control_3\ ,
+        control_2 => \sensorSelRegister:control_2\ ,
+        control_1 => Net_958_1 ,
+        control_0 => Net_958_0 );
+    Properties:
+    {
+        cy_ctrl_mode_0 = "00000000"
+        cy_ctrl_mode_1 = "00000000"
+        cy_ext_reset = 0
+        cy_force_order = 1
+        cy_init_value = "00000000"
+    }
+    Clock Enable: True
+
+UDB [UDB=(3,5)] contents:
+LAB@[UDB=(3,5)][LB=0] #macrocells=4, #inputs=8, #pterms=6
+{
+    [McSlotId=0]:     MacroCell: Name=Net_869, Mode=(Combinatorial) @ [UDB=(3,5)][LB=0][MC=0]
+        Total # of inputs        : 6
+        Total # of product terms : 4
+            Clock Enable: True
+        Main Equation            : 4 pterms
+        (
+              Net_907 * !Net_958_1 * !Net_958_0
+            + Net_906 * !Net_958_1 * Net_958_0
+            + Net_905 * Net_958_1 * !Net_958_0
+            + Net_904 * Net_958_1 * Net_958_0
+        );
+        Output = Net_869 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=Net_891, Mode=(D-Register) @ [UDB=(3,5)][LB=0][MC=1]
+        Total # of inputs        : 2
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_1017) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        !(
+              \FreqDiv_2:not_last_reset\ * !\FreqDiv_2:count_0\
+        );
+        Output = Net_891 (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=\FreqDiv_2:count_0\, Mode=(T-Register) @ [UDB=(3,5)][LB=0][MC=2]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_1017) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \FreqDiv_2:not_last_reset\
+        );
+        Output = \FreqDiv_2:count_0\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=\FreqDiv_2:not_last_reset\, Mode=(D-Register) @ [UDB=(3,5)][LB=0][MC=3]
+        Total # of inputs        : 0
+        Total # of product terms : 0
+        List of special equations: 
+            Clock  = (Net_1017) => Global
+            Clock Enable: True
+        Main Equation            : 0 pterms
+        !(
+            0
+        );
+        Output = \FreqDiv_2:not_last_reset\ (fanout=2)
+        Properties               : 
+        {
+        }
+}
+
+LAB@[UDB=(3,5)][LB=1] #macrocells=4, #inputs=3, #pterms=4
+{
+    [McSlotId=0]:     MacroCell: Name=Net_908, Mode=(Combinatorial) @ [UDB=(3,5)][LB=1][MC=0]
+        Total # of inputs        : 3
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_958_1 * Net_958_0 * Net_1063
+        );
+        Output = Net_908 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=Net_909, Mode=(Combinatorial) @ [UDB=(3,5)][LB=1][MC=1]
+        Total # of inputs        : 3
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_958_1 * !Net_958_0 * Net_1063
+        );
+        Output = Net_909 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=Net_910, Mode=(Combinatorial) @ [UDB=(3,5)][LB=1][MC=2]
+        Total # of inputs        : 3
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !Net_958_1 * Net_958_0 * Net_1063
+        );
+        Output = Net_910 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=Net_911, Mode=(Combinatorial) @ [UDB=(3,5)][LB=1][MC=3]
+        Total # of inputs        : 3
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !Net_958_1 * !Net_958_0 * Net_1063
+        );
+        Output = Net_911 (fanout=1)
+        Properties               : 
+        {
+        }
+}
+
+statuscell: Name =\echoRegister:sts:sts_reg\
+    PORT MAP (
+        status_0 => Net_869 );
+    Properties:
+    {
+        cy_force_order = 1
+        cy_md_select = "00000000"
+    }
+    Clock Enable: True
+
+controlcell: Name =\echoCounter:CounterUDB:sCTRLReg:ctrlreg\
+    PORT MAP (
+        clock => Net_1017 ,
+        control_7 => \echoCounter:CounterUDB:control_7\ ,
+        control_6 => \echoCounter:CounterUDB:control_6\ ,
+        control_5 => \echoCounter:CounterUDB:control_5\ ,
+        control_4 => \echoCounter:CounterUDB:control_4\ ,
+        control_3 => \echoCounter:CounterUDB:control_3\ ,
+        control_2 => \echoCounter:CounterUDB:control_2\ ,
+        control_1 => \echoCounter:CounterUDB:control_1\ ,
+        control_0 => \echoCounter:CounterUDB:control_0\ );
+    Properties:
+    {
+        cy_ctrl_mode_0 = "11111111"
+        cy_ctrl_mode_1 = "00000000"
+        cy_ext_reset = 0
+        cy_force_order = 1
+        cy_init_value = "00000000"
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+
+Intr container @ [IntrContainer=(0)]: 
+  Intr@ [IntrContainer=(0)][IntrId=(18)] 
+    interrupt: Name =oneMsIsr
+        PORT MAP (
+            interrupt => Net_1038 );
+        Properties:
+        {
+            int_type = "10"
+            is_nmi = 0
+        }
+Drq container @ [DrqContainer=(0)]: empty
+Port 0 contains the following IO cells:
+[IoId=0]: 
+Pin : Name = trigOne(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: RES_PULL_DOWN
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilities: DIGITAL, ROUTABLE
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => trigOne(0)__PA ,
+        pin_input => Net_911 ,
+        pad => trigOne(0)_PAD );
+    Properties:
+    {
+    }
+
+[IoId=1]: 
+Pin : Name = trigTwo(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: RES_PULL_DOWN
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilities: DIGITAL, ROUTABLE
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => trigTwo(0)__PA ,
+        pin_input => Net_910 ,
+        pad => trigTwo(0)_PAD );
+    Properties:
+    {
+    }
+
+[IoId=2]: 
+Pin : Name = trigThree(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: RES_PULL_DOWN
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilities: DIGITAL, ROUTABLE
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => trigThree(0)__PA ,
+        pin_input => Net_909 ,
+        pad => trigThree(0)_PAD );
+    Properties:
+    {
+    }
+
+[IoId=3]: 
+Pin : Name = trigFour(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: RES_PULL_DOWN
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilities: DIGITAL, ROUTABLE
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => trigFour(0)__PA ,
+        pin_input => Net_908 ,
+        pad => trigFour(0)_PAD );
+    Properties:
+    {
+    }
+
+[IoId=4]: 
+Pin : Name = echoOne(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: NOSYNC
+        Out Sync Option: AUTO
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: RES_PULL_DOWN
+        VTrip: CMOS
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilities: DIGITAL, ROUTABLE
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => echoOne(0)__PA ,
+        fb => Net_907 ,
+        pad => echoOne(0)_PAD );
+    Properties:
+    {
+    }
+
+[IoId=5]: 
+Pin : Name = echoTwo(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: NOSYNC
+        Out Sync Option: AUTO
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: RES_PULL_DOWN
+        VTrip: CMOS
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilities: DIGITAL, ROUTABLE
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => echoTwo(0)__PA ,
+        fb => Net_906 ,
+        pad => echoTwo(0)_PAD );
+    Properties:
+    {
+    }
+
+[IoId=6]: 
+Pin : Name = echoThree(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: NOSYNC
+        Out Sync Option: AUTO
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: RES_PULL_DOWN
+        VTrip: CMOS
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilities: DIGITAL, ROUTABLE
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => echoThree(0)__PA ,
+        fb => Net_905 ,
+        pad => echoThree(0)_PAD );
+    Properties:
+    {
+    }
+
+[IoId=7]: 
+Pin : Name = echoFour(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: NOSYNC
+        Out Sync Option: AUTO
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: RES_PULL_DOWN
+        VTrip: CMOS
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilities: DIGITAL, ROUTABLE
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => echoFour(0)__PA ,
+        fb => Net_904 ,
+        pad => echoFour(0)_PAD );
+    Properties:
+    {
+    }
+
+Port 1 contains the following IO cells:
+[IoId=2]: 
+Pin : Name = alarmOut(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: CMOS_OUT
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilities: DIGITAL
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => alarmOut(0)__PA ,
+        pad => alarmOut(0)_PAD );
+    Properties:
+    {
+    }
+
+Port 2 contains the following IO cells:
+[IoId=1]: 
+Pin : Name = onboardLedPin(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: CMOS_OUT
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilities: DIGITAL, ROUTABLE
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => onboardLedPin(0)__PA ,
+        pin_input => Net_1 ,
+        annotation => Net_3 ,
+        pad => onboardLedPin(0)_PAD );
+    Properties:
+    {
+    }
+
+Port 3 contains the following IO cells:
+[IoId=0]: 
+Pin : Name = pirInput(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: NOSYNC
+        Out Sync Option: AUTO
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: RES_PULL_DOWN
+        VTrip: CMOS
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilities: DIGITAL
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => pirInput(0)__PA ,
+        annotation => Net_1082 ,
+        pad => pirInput(0)_PAD );
+    Properties:
+    {
+    }
+
+Port 12 contains the following IO cells:
+Port 15 contains the following IO cells:
+ARM group 0: empty
+CAN group 0: empty
+Cache group 0: empty
+CapSense group 0: empty
+Clock group 0: 
+    Clock Block @ F(Clock,0): 
+    clockblockcell: Name =ClockBlock
+        PORT MAP (
+            imo => ClockBlock_IMO ,
+            pllout => ClockBlock_PLL_OUT ,
+            ilo => ClockBlock_ILO ,
+            clk_100k => ClockBlock_100k ,
+            clk_1k => ClockBlock_1k ,
+            clk_32k => ClockBlock_32k ,
+            xtal => ClockBlock_XTAL ,
+            clk_32k_xtal => ClockBlock_XTAL_32KHZ ,
+            clk_sync => ClockBlock_MASTER_CLK ,
+            clk_bus_glb => ClockBlock_BUS_CLK ,
+            clk_bus => ClockBlock_BUS_CLK_local ,
+            dclk_glb_0 => Net_37 ,
+            dclk_0 => Net_37_local ,
+            dclk_glb_1 => Net_1017 ,
+            dclk_1 => Net_1017_local ,
+            dclk_glb_2 => Net_1062 ,
+            dclk_2 => Net_1062_local );
+        Properties:
+        {
+        }
+Comparator group 0: empty
+DFB group 0: empty
+DSM group 0: empty
+Decimator group 0: empty
+EMIF group 0: empty
+I2C group 0: empty
+LCD group 0: empty
+LVD group 0: empty
+PICU group 0: empty
+PM group 0: empty
+SC group 0: empty
+SPC group 0: empty
+Timer group 0: 
+    Timer Block @ F(Timer,0): 
+    timercell: Name =\ledPwm:PWMHW\
+        PORT MAP (
+            clock => Net_37 ,
+            enable => __ONE__ ,
+            tc => \ledPwm:Net_63\ ,
+            cmp => Net_1 ,
+            irq => \ledPwm:Net_54\ );
+        Properties:
+        {
+            cy_registers = ""
+        }
+    Timer Block @ F(Timer,1): 
+    timercell: Name =\msTimer:TimerHW\
+        PORT MAP (
+            clock => Net_1062 ,
+            enable => __ONE__ ,
+            tc => \msTimer:Net_51\ ,
+            cmp => \msTimer:Net_261\ ,
+            irq => Net_1038 );
+        Properties:
+        {
+            cy_registers = ""
+        }
+    Timer Block @ F(Timer,2): 
+    timercell: Name =\timeout:TimerHW\
+        PORT MAP (
+            clock => Net_1017 ,
+            enable => __ONE__ ,
+            timer_reset => Net_1063 ,
+            tc => \timeout:Net_51\ ,
+            cmp => \timeout:Net_261\ ,
+            irq => \timeout:Net_57\ );
+        Properties:
+        {
+            cy_registers = ""
+        }
+USB group 0: empty
+VIDAC group 0: empty
+OpAmp group 0: empty
+CsAbuf group 0: empty
+Vref group 0: empty
+LPF group 0: empty
+SAR group 0: empty
+ANAIF group 0: empty
+PHUB group 0: empty
+</CYPRESSTAG>
+<CYPRESSTAG name="Port Configuration Details">
+
+------------------------------------------------------------
+Port Configuration report
+------------------------------------------------------------
+     |     |       | Interrupt |                  |                  | 
+Port | Pin | Fixed |      Type |       Drive Mode |             Name | Connections
+-----+-----+-------+-----------+------------------+------------------+------------
+   0 |   0 |     * |      NONE |    RES_PULL_DOWN |       trigOne(0) | In(Net_911)
+     |   1 |     * |      NONE |    RES_PULL_DOWN |       trigTwo(0) | In(Net_910)
+     |   2 |     * |      NONE |    RES_PULL_DOWN |     trigThree(0) | In(Net_909)
+     |   3 |     * |      NONE |    RES_PULL_DOWN |      trigFour(0) | In(Net_908)
+     |   4 |     * |      NONE |    RES_PULL_DOWN |       echoOne(0) | FB(Net_907)
+     |   5 |     * |      NONE |    RES_PULL_DOWN |       echoTwo(0) | FB(Net_906)
+     |   6 |     * |      NONE |    RES_PULL_DOWN |     echoThree(0) | FB(Net_905)
+     |   7 |     * |      NONE |    RES_PULL_DOWN |      echoFour(0) | FB(Net_904)
+-----+-----+-------+-----------+------------------+------------------+------------
+   1 |   2 |       |      NONE |         CMOS_OUT |      alarmOut(0) | 
+-----+-----+-------+-----------+------------------+------------------+------------
+   2 |   1 |     * |      NONE |         CMOS_OUT | onboardLedPin(0) | In(Net_1)
+-----+-----+-------+-----------+------------------+------------------+------------
+   3 |   0 |     * |      NONE |    RES_PULL_DOWN |      pirInput(0) | 
+----------------------------------------------------------------------------------
+</CYPRESSTAG>
+</CYPRESSTAG>
+</CYPRESSTAG>
+Digital component placer commit/Report: Elapsed time ==> 0s.032ms
+Digital Placement phase: Elapsed time ==> 1s.520ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Digital Routing">
+"C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\bin/sjrouter.exe" --xml-path "C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\dev\psoc5/psoc5lp/route_arch-rrg.cydata" --vh2-path "social_distancer_r.vh2" --pcf-path "social_distancer.pco" --des-name "social_distancer" --dsf-path "social_distancer.dsf" --sdc-path "social_distancer.sdc" --lib-path "social_distancer_r.lib"
+Routing successful.
+Digital Routing phase: Elapsed time ==> 1s.912ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Bitstream Generation">
+Bitstream Generation phase: Elapsed time ==> 0s.348ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Bitstream Verification">
+Bitstream Verification phase: Elapsed time ==> 0s.067ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Static timing analysis">
+Timing report is in social_distancer_timing.html.
+Static timing analysis phase: Elapsed time ==> 0s.576ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Data reporting">
+Data reporting phase: Elapsed time ==> 0s.000ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Database update...">
+Design database save phase: Elapsed time ==> 0s.283ms
+</CYPRESSTAG>
+cydsfit: Elapsed time ==> 5s.400ms
+</CYPRESSTAG>
+Fitter phase: Elapsed time ==> 5s.400ms
+API generation phase: Elapsed time ==> 2s.772ms
+Dependency generation phase: Elapsed time ==> 0s.044ms
+Cleanup phase: Elapsed time ==> 0s.003ms
