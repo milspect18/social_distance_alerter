@@ -2,6 +2,12 @@
 Generated_Source/
 codegentemp/
 
+# Don't capture build logs
+*.log
+
+# user specific project files
+*.cyprj.*
+
 # Make sure we don't add binaries to SCM
 Debug/
 Release/
